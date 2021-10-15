@@ -1,10 +1,17 @@
 import React from "react";
+import './About.css';
 export default function About(){
     return(
         <div>
-            <h4>Sobre Nosotros</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore provident nihil sint officia ex laudantium est ut in assumenda quam dolores voluptate consequatur voluptatibus similique non, tempore dolor perspiciatis velit.</p>
+            <div className='box'>
+            <h4>Sobre mi</h4>
+            <p>Mi nombre es Guadalupe, tengo 25 años y vivo en Córdoba Capital, Argentina.
+            Estoy realizando mis primeros pasos en el mundo de la programación.</p>
+            <p>Espero que les haya gustado este mini proyecto.
+            </p>
+            <p>Gracias.</p>
+            </div>
         </div>
     )
 }
-// ESTA COSILLA LA DEBERIA LLENAR CON MIS DATOS
+

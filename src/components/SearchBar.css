@@ -2,13 +2,24 @@
 grid-column:3;
 border-radius: 10px;
 border: none;
-background-color: rgba(135, 228, 218, 0.418);
+background-color: rgba(246, 253, 253, 0.37);
 }
 .input:focus{
     background-color: rgba(178, 230, 224, 0.418);
     border: none;
 }
+.input::selection{
+    border: none;
+}
 .submit{
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.418);
+    color: rgb(22, 120, 153);
+    border: none;
+}
+.submit:hover{
+    background-color:rgb(22, 120, 153) ;
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    box-shadow: 1px 1px 1px  3px rgba(241, 247, 247, 0.308);
 }

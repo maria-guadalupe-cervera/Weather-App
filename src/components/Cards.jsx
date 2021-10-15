@@ -1,33 +1,13 @@
-// import React from 'react';
-// import './Cards.css';
-// import Card from './Card.jsx';
+import React from "react";
+import "./Cards.css";
 
-// export default function Cards({cities, onClose/*,onFilter */}) {
-//   return (
-//     <div className='cards'>
-//       {cities.map(c => <Card
-//           id={c.id}
-//           key={c.id}
-//           max={c.max}
-//           min={c.min}
-//           name={c.name}
-//           img={c.img}
-//           onClose={() => onClose(c.id)}
-//           /* onFilter={()=>onFilter(c.id)} */
-//         /> )}
-//     </div>
-//   );
-// }
+import Card from "./Card.jsx";
 
-import React from 'react';
-import './Cards.css';
-
-import Card from './Card.jsx';
-
-export default function Cards({cities, onClose}) {
+export default function Cards({ cities, onClose }) {
   return (
-    <div className='cards'>
-      {cities.map(c => <Card
+    <div className="cards">
+      {cities.map((c) => (
+        <Card
           key={c.id}
           id={c.id}
           max={c.max}
@@ -35,7 +15,8 @@ export default function Cards({cities, onClose}) {
           name={c.name}
           img={c.img}
           onClose={() => onClose(c.id)}
-        /> )}
+        />
+      ))}
     </div>
   );
 }

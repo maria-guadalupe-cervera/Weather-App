@@ -1,0 +1,14 @@
+.box{
+    padding: 80px;
+    color: white;
+    background-color: rgba(80, 124, 119, 0.411);
+    height: 300px;
+    width: 800px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h4{
+    margin-bottom: 30px;
+    margin-top: -40px;
+}

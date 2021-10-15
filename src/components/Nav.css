@@ -1,18 +1,17 @@
-#logoHenry {
-  margin-right: 20px;
-  grid-column:1;
+.navbar {
+  display: flex;
+
+  background: #b5eaf777;
+  color: #b1d4e0;
 }
-.navbar{
-  /* display:grid;
-  grid-template-columns: 100px,940px,300px;
-  grid-template-rows: 50px; */
-  background: #629ead77;
-  color: #B1D4E0;
+.logo {
+  justify-self: start;
 }
-.logo{
-  grid-column: 2;
-  justify-self:start;
-}
-span{
+span {
   color: rgb(255, 255, 255);
+  margin: 10px;
+  margin-right: 5px;
+}
+img {
+  margin-left: 10px;
 }
