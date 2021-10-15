@@ -1,0 +1,14 @@
+.input{
+grid-column:3;
+border-radius: 10px;
+border: none;
+background-color: rgba(135, 228, 218, 0.418);
+}
+.input:focus{
+    background-color: rgba(178, 230, 224, 0.418);
+    border: none;
+}
+.submit{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}

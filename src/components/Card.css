@@ -1,0 +1,32 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  background: rgba(226, 238, 248, 0.301);
+  border-radius:12px;
+  display: grid;
+  grid-template-rows: 40%,30%,30%;
+  grid-template-columns: 50%,50%;
+  border: none;
+}
+.card:hover{
+  background-color: rgba(187, 217, 231, 0.616);
+}
+.card-title {
+  margin-bottom: 15px;
+  grid-column: 1;
+  grid-row: 1;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
